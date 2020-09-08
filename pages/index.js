@@ -3,13 +3,16 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="dummy">
       <Head>
         <title>IT-Sammlung</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-
+      <main>
+      <div className="container">
+      Startseite
+      </div>
+      </main>
 
       <style jsx>{`
 

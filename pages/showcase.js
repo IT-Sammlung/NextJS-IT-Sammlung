@@ -4,10 +4,24 @@ import Layout from '../components/layout'
 
 export default function BlogNews() {
   return (
-    <Layout>
-    <Head>
-      <title>News</title>
-    </Head>
-    </Layout>
+    <div className="dummy">
+      <Head>
+        <title>Showcase</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+      <div className="container">
+      Showcase
+      </div>
+      </main>
+
+      <style jsx>{`
+
+      `}</style>
+
+      <style jsx global>{`
+
+      `}</style>
+    </div>
   )
 }
